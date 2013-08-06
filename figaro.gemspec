@@ -2,15 +2,15 @@
 
 Gem::Specification.new do |gem|
   gem.name    = "figaro"
-  gem.version = "0.4.2"
+  gem.version = "0.5.1"
 
-  gem.authors     = ["Steve Richert"]
-  gem.email       = ["steve.richert@gmail.com"]
+  gem.authors     = ["Steve Richert", "Pankaj Tyagi"]
+  gem.email       = ["steve.richert@gmail.com", "ptyagi16@gmail.com"]
   gem.summary     = "Simple Rails app configuration"
-  gem.description = "Simple, Heroku-friendly Rails app configuration using ENV and a single YAML file"
+  gem.description = "Simple, Heroku abd Cloudbees-friendly Rails app configuration using ENV, java.lang.System.property and a single YAML file"
   gem.homepage    = "https://github.com/laserlemon/figaro"
 
-  gem.add_dependency "rails", "~> 3.0"
+  gem.add_dependency "rails", ">= 3.0"
 
   gem.add_development_dependency "appraisal", "~> 0.4"
   gem.add_development_dependency "aruba", "~> 0.4"
